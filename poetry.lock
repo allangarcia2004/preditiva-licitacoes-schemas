@@ -24,7 +24,7 @@ python-versions = ">=3.7"
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "0ecb0322edd5d67e794303946f6dc71687b569ee4cd5c404bf13f67838c52523"
+content-hash = "19b131a9cb8c79fc38ec74b8c57d882d3b46c6476207f873018be1f3a8804598"
 
 [metadata.files]
 pydantic = []

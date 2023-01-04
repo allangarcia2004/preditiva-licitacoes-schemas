@@ -1,5 +1,5 @@
 from datetime import datetime
-from typing import Optional
+from typing import Optional, List
 
 from pydantic import BaseModel
 
@@ -38,7 +38,7 @@ class LicitacaoBase(BaseModel):
 
 
 class LicitacaoCreate(LicitacaoBase):
-    produtos: list[ProdutoCreate]
+    produtos: List[ProdutoCreate]
     orgao: OrgaoCreate
 
     def as_db_dict(self):
@@ -46,7 +46,7 @@ class LicitacaoCreate(LicitacaoBase):
 
 
 class Licitacao(LicitacaoBase):
-    produtos: list[Produto]
+    produtos: List[Produto]
     orgao: Orgao
     id_licitacao: int
 
