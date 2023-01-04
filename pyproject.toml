@@ -6,7 +6,7 @@ authors = ["Allan Garcia <allan.garcia.agcs@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.7"
-pydantic = "^1.10.4"
+pydantic = "^1.10.2"
 
 [tool.poetry.dev-dependencies]
 
